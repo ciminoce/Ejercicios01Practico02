@@ -12,6 +12,7 @@ namespace Ejercicios01Practico02.Consola
             /*En la variable mayorTemperatura se guardará la mayor temperatura registrada
              Se la inicializa con un valor muy chico para que el primer valor que se ingrese
             automáticamente sea el nuevo mayor*/
+            Console.Title = "Ingreso de temperaturas";
             double mayorTemperatura = double.MinValue;
             double menorTemperatura = double.MaxValue;
             double promedioTemperatura = 0;
